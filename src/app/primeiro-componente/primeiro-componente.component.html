@@ -1,1 +1,19 @@
-<p>primeiro-componente em funcionamento!</p>
+<p>primeiro componente em funcionamento!</p>
+
+<!-- Interpolação com variaveis -->
+<p>Nome: Olá {{ nome }}</p>
+<p>Nome: {{'Olá ' +nome }}</p>
+<p>Nome: {{ `Olá ${nome}` }}</p>
+
+<!-- Interpolação com expressões aritmeticas -->
+<p>{{  5 + 5 }}</p>
+
+<!-- Interpolação com funções/métodos -->
+ <p>{{ mensgaem() }}</p>
+
+<!-- Interpolação com operador ternário -->
+<p>{{ media >= 7 ? 'Aprovado' : 'Reprovado' }}</p>
+
+<!-- Interpolação com objetos -->
+<p>{{ pessoa.nome }}</p>
+<p>{{ pessoa.idade }}</p>

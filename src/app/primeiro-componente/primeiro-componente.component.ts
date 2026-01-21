@@ -7,5 +7,14 @@ import { Component } from '@angular/core';
   styleUrl: './primeiro-componente.component.css'
 })
 export class PrimeiroComponenteComponent {
+   nome:string = 'Ralf';
+   media:number = 8;
+   pessoa = {
+    nome: 'Ralf',
+    idade: 35
+  };
 
+   mensgaem(): string {
+    return 'Hello World!';
+   }
 }
