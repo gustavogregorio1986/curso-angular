@@ -3,10 +3,11 @@ import { PrimeiroComponenteComponent } from "./primeiro-componente/primeiro-comp
 import { DataBindingsComponent } from "./data-bindings/data-bindings.component";
 import { FormularioComponent } from "./formulario/formulario.component";
 import { ControleFluxoComponent } from "./controle-fluxo/controle-fluxo.component";
+import { DiretivaStyleComponent } from "./diretiva-style/diretiva-style.component";
 
 @Component({
   selector: 'app-root',
-  imports: [PrimeiroComponenteComponent, DataBindingsComponent, FormularioComponent, ControleFluxoComponent],
+  imports: [PrimeiroComponenteComponent, DataBindingsComponent, FormularioComponent, ControleFluxoComponent, DiretivaStyleComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
