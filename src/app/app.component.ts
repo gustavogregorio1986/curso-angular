@@ -4,10 +4,11 @@ import { DataBindingsComponent } from "./data-bindings/data-bindings.component";
 import { FormularioComponent } from "./formulario/formulario.component";
 import { ControleFluxoComponent } from "./controle-fluxo/controle-fluxo.component";
 import { DiretivaStyleComponent } from "./diretiva-style/diretiva-style.component";
+import { DiretivaClassComponent } from "./diretiva-class/diretiva-class.component";
 
 @Component({
   selector: 'app-root',
-  imports: [PrimeiroComponenteComponent, DataBindingsComponent, FormularioComponent, ControleFluxoComponent, DiretivaStyleComponent],
+  imports: [PrimeiroComponenteComponent, DataBindingsComponent, FormularioComponent, ControleFluxoComponent, DiretivaStyleComponent, DiretivaClassComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
