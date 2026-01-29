@@ -6,10 +6,11 @@ import { ControleFluxoComponent } from "./controle-fluxo/controle-fluxo.componen
 import { DiretivaStyleComponent } from "./diretiva-style/diretiva-style.component";
 import { DiretivaClassComponent } from "./diretiva-class/diretiva-class.component";
 import { DiretivaCustomizadaComponent } from "./diretiva-customizada/diretiva-customizada/diretiva-customizada.component";
+import { FormularioReativoComponent } from "./formulario-reativo/formulario-reativo.component";
 
 @Component({
   selector: 'app-root',
-  imports: [PrimeiroComponenteComponent, DataBindingsComponent, FormularioComponent, ControleFluxoComponent, DiretivaStyleComponent, DiretivaClassComponent, DiretivaCustomizadaComponent],
+  imports: [PrimeiroComponenteComponent, DataBindingsComponent, FormularioComponent, ControleFluxoComponent, DiretivaStyleComponent, DiretivaClassComponent, DiretivaCustomizadaComponent, FormularioReativoComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
