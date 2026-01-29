@@ -5,3 +5,16 @@
 
 <p>{{pessoa.value.nome}}</p>
 <p>{{pessoa.value.idade}}</p>
+
+<hr>
+
+@if(pessoa.get('nome')?.errors?.['required']){
+    <p>O campo nome deve ser preenchido</p>
+}
+@if(pessoa.get('nome')?.errors?.['required']){
+    <p>O campo nome deve ter pelo menos três caracteres</p>
+}
+
+@if(pessoa.get('nome')?.valid){
+   <p>Nome Valido!</p>
+}
