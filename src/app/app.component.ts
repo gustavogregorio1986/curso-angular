@@ -7,10 +7,11 @@ import { DiretivaStyleComponent } from "./diretiva-style/diretiva-style.componen
 import { DiretivaClassComponent } from "./diretiva-class/diretiva-class.component";
 import { DiretivaCustomizadaComponent } from "./diretiva-customizada/diretiva-customizada/diretiva-customizada.component";
 import { FormularioReativoComponent } from "./formulario-reativo/formulario-reativo.component";
+import { BootstrapComponent } from "./bootstrap/bootstrap.component";
 
 @Component({
   selector: 'app-root',
-  imports: [PrimeiroComponenteComponent, DataBindingsComponent, FormularioComponent, ControleFluxoComponent, DiretivaStyleComponent, DiretivaClassComponent, DiretivaCustomizadaComponent, FormularioReativoComponent],
+  imports: [PrimeiroComponenteComponent, DataBindingsComponent, FormularioComponent, ControleFluxoComponent, DiretivaStyleComponent, DiretivaClassComponent, DiretivaCustomizadaComponent, FormularioReativoComponent, BootstrapComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
