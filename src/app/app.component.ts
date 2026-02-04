@@ -8,10 +8,11 @@ import { DiretivaClassComponent } from "./diretiva-class/diretiva-class.componen
 import { DiretivaCustomizadaComponent } from "./diretiva-customizada/diretiva-customizada/diretiva-customizada.component";
 import { FormularioReativoComponent } from "./formulario-reativo/formulario-reativo.component";
 import { BootstrapComponent } from "./bootstrap/bootstrap.component";
+import { ProjetoCrudComponent } from "./projeto-crud/projeto-crud.component";
 
 @Component({
   selector: 'app-root',
-  imports: [PrimeiroComponenteComponent, DataBindingsComponent, FormularioComponent, ControleFluxoComponent, DiretivaStyleComponent, DiretivaClassComponent, DiretivaCustomizadaComponent, FormularioReativoComponent, BootstrapComponent],
+  imports: [PrimeiroComponenteComponent, DataBindingsComponent, FormularioComponent, ControleFluxoComponent, DiretivaStyleComponent, DiretivaClassComponent, DiretivaCustomizadaComponent, FormularioReativoComponent, BootstrapComponent, ProjetoCrudComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
