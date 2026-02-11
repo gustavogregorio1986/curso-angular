@@ -8,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class ProjetoCrudComponent {
 
+    //Variável para trabalhar com avisibilidade dos botões
+    btnCadastrar:boolean = true;
 }
