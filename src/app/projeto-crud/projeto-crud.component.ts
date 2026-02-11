@@ -52,4 +52,11 @@ export class ProjetoCrudComponent {
         this.btnCadastrar = true;
 
      }
+
+     //Método para alterar dados
+     alterar():void{
+        this.vetor[this.indicePessoaSelecionada] = this.pessoa.value as Pessoa;
+
+        this.cancelar();
+     }
 }

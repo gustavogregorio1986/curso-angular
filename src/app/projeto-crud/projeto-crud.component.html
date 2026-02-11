@@ -6,7 +6,7 @@
     @if(btnCadastrar){
        <input type="button" (click)="cadastrar()" [disabled]="pessoa.invalid" value="cadastrar" class="btn btn-primary"/>
     }@else{
-       <input type="button" value="Alterar" class="btn btn-primary"/>
+       <input type="button" (click)="alterar()" value="Alterar" class="btn btn-primary"/>
        <input type="button" value="Remover" class="btn btn-primary"/>
        <input type="button" (click)="cancelar()" value="Cancelar" class="btn btn-primary"/>
     }
