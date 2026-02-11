@@ -44,4 +44,12 @@ export class ProjetoCrudComponent {
          this.btnCadastrar = false;
      
      }
+
+     cancelar():void{
+        this.pessoa.reset();
+        this.indicePessoaSelecionada = -1;
+
+        this.btnCadastrar = true;
+
+     }
 }
