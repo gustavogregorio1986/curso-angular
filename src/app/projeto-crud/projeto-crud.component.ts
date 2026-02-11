@@ -59,4 +59,11 @@ export class ProjetoCrudComponent {
 
         this.cancelar();
      }
+
+     //Metodo para remover pessoas
+     remover():void{
+        this.vetor.splice(this.indicePessoaSelecionada, 1);
+
+        this.cancelar();
+     }
 }
