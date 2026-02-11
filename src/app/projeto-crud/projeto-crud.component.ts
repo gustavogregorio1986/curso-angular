@@ -23,5 +23,9 @@ export class ProjetoCrudComponent {
     //Vetor para armazenar pessoas
     vetor:Pessoa[] = [];
 
-
+     //Método para efetuar o cadastro
+     cadastrar():void{
+        this.vetor.push(this.pessoa.value as Pessoa);
+        this.pessoa.reset();
+     }
 }
