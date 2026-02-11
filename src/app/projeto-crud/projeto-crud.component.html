@@ -4,7 +4,7 @@
     <input type="text" formControlName="cidade" placeholder="Cidade" class="form-control"/>
 
     @if(btnCadastrar){
-       <input type="button" value="cadastrar" class="btn btn-primary"/>
+       <input type="button" [disabled]="pessoa.invalid" value="cadastrar" class="btn btn-primary"/>
     }@else{
        <input type="button" value="Alterar" class="btn btn-primary"/>
        <input type="button" value="Remover" class="btn btn-primary"/>
